@@ -12,10 +12,10 @@ int main(){
 	char string [100]; //Tamanho do vetor para 100 caracteres
 	int i = 0; 
 	
-	printf("Coloque aqui a express„o a ser testada: ");
+	printf("Coloque aqui a express√£o a ser testada: ");
 	scanf("%s", &string);
 	
-	machineState = 1; //Inicio da M·quina de Estados
+	machineState = 1; //Inicio da M√°quina de Estados
 	tamanhoString = strlen(string);
 	
 	while(i <= tamanhoString &&(machineState == 1 || machineState == 2) || machineState == 3 || machineState == 4){
@@ -65,17 +65,3 @@ int main(){
 	}
 	return 0;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
